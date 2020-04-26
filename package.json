@@ -1,0 +1,23 @@
+{
+  "name": "google-images-download-ts",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "description": "Tool for download from google images made by TypeScript.",
+  "private": true,
+  "scripts": {
+    "download": "ts-node index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "puppeteer": "^3.0.1",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/puppeteer": "^2.0.1",
+    "@types/yargs": "^15.0.4",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  }
+}
